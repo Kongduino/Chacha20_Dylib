@@ -26,3 +26,5 @@ cipher_size = chacha.encrypt(plainB, TEXT_SIZE, adB, TEXT_SIZE, keyB, nonceB, bu
 
 result = chacha.decrypt(buffer2B, key, nonce, ad, TEXT_SIZE, bufferB, cipher_size)
 ```
+
+![demo](Assets/Demo.png)
