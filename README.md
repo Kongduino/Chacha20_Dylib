@@ -28,3 +28,9 @@ result = chacha.decrypt(buffer2B, key, nonce, ad, TEXT_SIZE, bufferB, cipher_siz
 ```
 
 ![demo](Assets/Demo.png)
+
+## Xojo
+
+I added a simple Xojo demo that lets you input the text, key and nonce. The additional data is fixed and pre-computed, which in real life should not be done. The MAc OS X ARM version is included here. I will add the x86-64 version (including the dylib) later.
+
+![demo](Assets/Xojo_Demo.png)
